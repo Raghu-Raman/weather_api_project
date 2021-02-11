@@ -3,15 +3,12 @@ import os
 from twilio.rest import Client
 
 
-# Your Account Sid and Auth Token from twilio.com/console
-# and set the environment variables. See http://twil.io/secure
-
-
 OMW_Endpoint = "https://api.openweathermap.org/data/2.5/onecall"
-api_key = "fa8da426ef3c25226b795cd9263cb522"
-account_sid = "AC3262777e01cb1e81898a2c5433e0dc4f"
-auth_token = "14c83ffdebf4d2638f2c5fb290dbb7a8"
+api_key = "fake_key"
+account_sid = "another_fake_key"
+auth_token = "another_one"
 
+#loaction of new york in terms of lattitude and longitude
 weather_params = {
     "lat": 40.7128,
     "lon":	74.0060,
